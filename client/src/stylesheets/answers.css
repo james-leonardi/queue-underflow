@@ -1,0 +1,227 @@
+.ap_answers {
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+    padding: 10px;
+    width: 100%;
+}
+
+#ap_questiontitle {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+#ap_commenttext {
+    text-align: left;
+    display: inline-block;
+    margin-left:30px;
+    width: 100%;
+    resize:vertical;
+}
+
+#prevbutt2 {
+    margin-left:30px;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius:5px;
+    border-color: cornflowerblue
+}
+#prevbutt2:disabled {
+    background-color: rgb(163, 163, 163);
+    color: white;
+    border-color: rgb(163, 163, 163)
+}
+#prevbutt {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius:5px;
+    border-color: cornflowerblue
+}
+#prevbutt:disabled {
+    background-color: rgb(163, 163, 163);
+    color: white;
+    border-color: rgb(163, 163, 163)
+}
+#nextbutt {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius:5px;
+    border-color: cornflowerblue
+}
+#nextbutt:disabled {
+    background-color: rgb(163, 163, 163);
+    color: white;
+    border-color: rgb(163, 163, 163)
+}
+
+#ap_commentbutton {
+    padding: 6px;
+    display: inline-block;
+    font-size: medium;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius:5px;
+    border-color: cornflowerblue;
+    margin-left:40px;
+}
+
+#ap_answercount {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+#ap_views {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 10%;
+}
+
+.avote {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.avote:focus {
+    outline: none;
+}
+
+.avote:active {
+    outline: none;
+}
+
+.upvoted {
+    color: orange
+}
+
+.downvoted {
+    color: blue
+}
+
+#ap_rep {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 5px;
+    width: 40px;
+}
+
+#ap_questiontext {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+#ap_askedby {
+    text-align: right;
+    display: inline-block;
+    width: calc(35% - 30px);
+    vertical-align: bottom;
+}
+
+.aComment {
+    padding-left: 30px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width:70%;
+}
+
+.aComSize {
+    font-size: 14px;
+}
+
+.aRow {
+    border-bottom: 1px dotted black;
+}
+
+.aTD {
+    padding: 15px;
+}
+
+.aV {
+    width: 5%;
+    text-align: center;
+}
+
+.acV {
+    width: 5%;
+    text-align: center;
+    padding-left:5%;
+    font-size: 16px;
+}
+
+.acvote {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.acvote:focus {
+    outline: none;
+}
+
+.acvote:active {
+    outline: none;
+}
+
+.aAns {
+    /* width: 60%;
+    max-width: 665px; */
+    overflow-wrap: break-word;
+}
+
+.aCred {
+    /* width: 20%; */
+    vertical-align: middle;
+    text-align: right;
+    padding-right:40px
+}
+
+#ap_answerbutton {
+    padding: 6px;
+    display: inline-block;
+    font-size: medium;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius:5px;
+    border-color: cornflowerblue;
+}
+
+.aeditText {
+    width: 100%;
+    resize: vertical;
+}
+  
+.aeditSave {
+    margin-top: 10px; /* Add margin to create space between buttons */
+    padding: 6px;
+    font-size: medium;
+    background-color: cornflowerblue;
+    color: white;
+    border-color: cornflowerblue;
+    cursor: pointer;
+}
+  
+.aeditDelete {
+    padding: 6px;
+    font-size: medium;
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+    cursor: pointer;
+}
+  

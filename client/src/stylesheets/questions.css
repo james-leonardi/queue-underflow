@@ -1,0 +1,120 @@
+.questionElement {
+    border: 1px dotted black;
+}
+
+.qlink {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+#qtitle {
+    width: 70%;
+    max-width: 665px;
+    height: 40px;
+    font-size: 20px
+}
+
+#qtext {
+    font-size: 14px;
+    max-width: 665px;
+    width: 70%
+}
+
+/* #askquestion {
+    display: none;
+} */
+
+#qtags,
+#quser {
+    width: 70%;
+    max-width: 665px;
+    height: 40px;
+    font-size: 16px
+}
+
+#postqbutt {
+    padding: 6px;
+    display: inline-block;
+    font-size: medium;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    border-color: cornflowerblue;
+}
+
+#questioncount {
+    display: inline-block;
+    width: 50%
+}
+
+.questionsort {
+    display: inline-block;
+    margin:2px
+}
+
+.qV {
+    width: 5%;
+    text-align: center;
+}
+
+.questions {
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+.contentheader {
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.qRow {
+    border-bottom: 1px dotted black;
+}
+
+.qTD {
+    padding: 15px;
+}
+
+.qANSVIEWS {
+    width: 10%;
+}
+
+.qTITLE {
+    width: 60%;
+}
+
+.qtag {
+    color:white;
+    background-color:grey;
+    display:inline-block;
+    cursor:copy;
+}
+
+.qvote {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+
+.qvote:focus {
+    outline: none;
+}
+
+.qvote:active {
+    outline: none;
+}
+
+.upvoted {
+    color: orange
+}
+
+.downvoted {
+    color: blue
+}
